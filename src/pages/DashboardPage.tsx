@@ -103,7 +103,7 @@ export const DashboardPage: React.FC = () => {
   );
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-slate-50 to-slate-100 py-6">
+    <div className="min-h-screen bg-linear-to-br from-slate-50 to-slate-100 py-6 px-3">
       <div className="max-w-7xl mx-auto">
         <HeaderStatsSection
           totalRules={rules.length}
